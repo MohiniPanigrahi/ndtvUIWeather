@@ -1,0 +1,31 @@
+{
+  "name": "ndtvuiweather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "esm": "^3.2.25",
+    "lodash-es": "^4.17.15",
+    "protractor": "^7.0.0",
+    "webdriver-manager": "^12.1.7"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohiniPanigrahi/ndtvUIWeather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohiniPanigrahi/ndtvUIWeather/issues"
+  },
+  "homepage": "https://github.com/MohiniPanigrahi/ndtvUIWeather#readme"
+}
