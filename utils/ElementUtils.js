@@ -1,14 +1,15 @@
+
 export class ElementUtils{
     constructor(){
 
     }
 
     static selectElementFromList(element, matchStr){
-        let list = $$(element).click();
-        return list.$$('li').filter(function (elem, index) {
-            return elem.getText().then(function (text) {
-              return text.includes(matchStr);
-            });
-          })
+        return element.$$('li').filter(elem => {
+            return elem.getText().then(text =>{
+              return text.includes(matchStr)
+            })
+          }).first()
     }
+
 }
